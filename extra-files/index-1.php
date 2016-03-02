@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : FullStrength 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20130902
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+</head>
+<body>
+<div id="header" class="container">
+	<div id="logo">
+		<h1><a href="#">Patient Health Monitoring System</a></h1>
+	</div>
+	<div id="menu">
+		<ul>
+			<li class="current_page_item"><a href="#" accesskey="1" title="">Home</a></li>
+			<li><a href="events.html" accesskey="2" title="">Events</a></li>
+			<li><a href="maps.html" accesskey="3" title="">Maps</a></li>
+			<li><a href="contact.html" accesskey="5" title="">Contact Us</a>
+			<li><a href="login.html" accesskey="5" title="">LogOut</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div id="banner" class="container"><a href="#" class="image image-full"><img src="images/pic04.jpg" alt="" /></a></div>
+<div id="wrapper">
+	<div id="welcome" class="container">
+		<h2>Welcome! <span class="byline">Please Enter your details</span></h2>
+		<p>This is, a form you fill when you registered for the first time. You can take an appointment with the available doctors and create the event on calender for Email Reminder.  </p>
+<form name="myform" action="insert1.php" method="$_POST" >
+ <table border="0">
+                
+                <tbody>
+                    
+                    	<H3>Details Below </H3> 
+                         
+                    	<tr>
+                        <td >Patient ID: </td>
+                        <td> <input type="number" name="patient_id" value="" size="25" /></td>
+                    </tr>
+                    <tr>
+                        <td >First name : </td>
+                        <td><input type="text" name="fname" value="" size="25" /> </tr>
+                    <tr>
+                        <td >Last name : </td>
+                        <td><input type="text" name="lname" value="" size="25" /></td>
+                   </tr>
+<tr>
+                        <td >Gender: </td>
+                        <td><input type="text" name="gender" value="" size="25" /></td>
+                        
+                   </tr>
+
+                   <tr>
+                        <td >Age: </td>
+                        <td><input type="text" name="age" value="" size="25" /></td>
+                        
+                   </tr>
+<tr>
+                        <td >Blood: </td>
+                        <td><input type="text" name="blood" value="" size="25" /></td>
+                        
+                   </tr>
+
+
+<tr>
+                        <td >Street: </td>
+                        <td><input type="text" name="street" value="" size="25" /></td>
+                        
+                   </tr>
+<tr>
+                        <td >City: </td>
+                        <td><input type="text" name="city" value="" size="25" /></td>
+                        
+                   </tr>
+                   <tr>
+                        <td >Zipcode: </td>
+                        <td><input type="text" name="zipcode" value="" size="25" /></td>
+                        
+                   </tr>
+                   <tr>
+                        <td >Maritial Status: </td>
+                        <td><input type="text" name="maritial_status" value="" size="25" /></td>
+                        
+                   </tr>
+                   <tr>
+                        <td >Insurance: </td>
+                        <td><input type="text" name="insurance" value="" size="25" /></td>
+                        
+                   </tr>
+                   <tr>
+                        <td >Primary Physician: </td>
+                        <td><input type="text" name="p_physician" value="" size="25" /></td>
+                        
+                   </tr>
+<tr>
+                        <td >Chief Complain Keywords: </td>
+                        <td><input type="text" name="chief_complain" value="" size="25" /></td>
+                        
+                   </tr>
+
+
+
+
+
+
+
+
+
+</tbody>
+</table>
+<input type="reset" value="Clear" name="clear" />
+            <input type="submit" value="Submit" name="submit" />
+</form>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+	<div id="page" class="container">
+		<div id="content">
+			<h2>You have following doctors available.</h2>
+			<p> Please proceed to the next page to take an appointment.
+			</p>
+			<ul class="style1">
+				<li class="first"> <a href="#" class="image image-left"><img src="images/pic01.jpg" alt="" /></a>
+					<h3>Dr. Jitendra Thapa</h3>
+					<p><a href="#">He is a popular Gynocologyst.</a></p>
+				</li>
+				<li> <a href="#" class="image image-left"><img src="images/pic02.jpg" alt="" /></a>
+					<h3>Dr. Preeza Karmacharya</h3>
+					<p><a href="#">She is a family physician.</a></p>
+				</li>
+				<li> <a href="#" class="image image-left"><img src="images/pic03.jpg" alt="" /></a>
+					<h3>Dr. Binita Paneru</h3>
+					<p><a href="#">She is a general Physician. She works in Baylor, Irving. </a></p>
+				</li>
+			</ul>
+		</div>
+		<div id="sidebar">
+			<h2> </h2>
+			<br>
+			<br>
+			<p> List of Doctors we have available in our PHMS.
+			</p>
+			<ul class="style1">
+				<li class="first"> <a href="#" class="image image-left"><img src="images/pic01.jpg" alt="" /></a>
+					<h3>Dr. Mahesh Pandeya</h3>
+					<p><a href="#">He is a popular Gynocologyst.</a></p>
+				</li>
+				<li> <a href="#" class="image image-left"><img src="images/pic02.jpg" alt="" /></a>
+					<h3>Dr. Padma Dhungana</h3>
+					<p><a href="#">She is a family physician.</a></p>
+				</li>
+				<li> <a href="#" class="image image-left"><img src="images/pic03.jpg" alt="" /></a>
+					<h3>Dr. Alexgendra Allen</h3>
+					<p><a href="#">She is a general Physician. She works in Baylor, Irving. </a></p>
+				</li>
+			</ul>
+	</div>
+</div>
+<div id="copyright" class="container">
+	<p>&copy; All rights reserved || UT Arlington Med-BOOK ||</p>
+</div>
+</body>
+</html>
